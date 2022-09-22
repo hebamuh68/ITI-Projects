@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400&display=swap');
+
+body {
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#background {
+    position: absolute;
+    width: 100%;
+    height: 100;
+}
+
+#mainHeader {
+    position: relative;
+    background-color: #7ecdfe4f;
+    height: 80px;
+    box-shadow: 50px 5px 5px rgba(95, 95, 95, 0.281);
+}
+
+#navbar a {
+    padding: 30px;
+
+    font-family: 'Chakra Petch';
+    font-size: 16px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+h1 {
+    font-family: 'Chakra Petch';
+    position: relative;
+    color: white;
+    font-size: 130px;
+    font-weight: 900;
+    margin-left: 200px;
+    margin-top: 200px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    font-family: 'Chakra Petch';
+    position: relative;
+    margin-left: 220px;
+    color: white;
+    font-size: 35px;
+}
+
+.circle {
+    z-index: 1000;
+    width: 20px;
+    height: 20px;
+    border: 1px solid rgba(36, 86, 250, 0.527);
+    position: absolute;
+    border-radius: 15px;
+}
+
+/*==================================== Fish css ============================================*/
+.fish{
+    z-index: 1000;
+    position: relative;
+    width: 100px;
+}
+
+#f1{
+    left: 30px;
+    bottom: 400px;
+}
+
+#f2{
+    left: 400px;
+    bottom: 40px;
+}
+
+#f4{
+    left: 800px;
+    bottom: 300px;
+}
+
+#f5{
+    left: 1000px;
+    bottom: 200px;
+}
+
+#f6{
+    left: 100px;
+    bottom: 600px;
+}
+
+.movee{
+    left: 40px;
+    bottom: 400px;
+    transition: all 2s;
+}
+
+/*==================================== Catch effect ============================================*/
+
+#effect{
+    z-index: 1000;
+    position: relative;
+    width: 100px;
+    display: hide;
+}
