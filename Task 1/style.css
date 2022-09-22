@@ -1,0 +1,40 @@
+/* Full-width inputs */
+td {
+    padding: 10px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input {
+    padding: 10px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button{
+    padding: 10px 60px;
+    margin: 8px 0;
+   
+}
+
+
+input:hover{
+    border-bottom-color: red;
+    border-left-color: red;
+}
+
+
+table{
+    position: absolute;
+    left: 40%;
+    top: 13%;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+
+h1, h2, h3 {
+    text-align: center;
+}
