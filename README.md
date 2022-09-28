@@ -1,6 +1,6 @@
 # ITI-Projects - UI/UX (Front-end) Development Track
 
-1 ### **BioCode**
+1. ### **BioCode**
    - HTML, CSS
 
 [screen-capture.webm](https://user-images.githubusercontent.com/69214737/192892291-84e6e973-24e8-4ab4-8c57-be3a704ec5a5.webm)
