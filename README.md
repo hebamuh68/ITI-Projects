@@ -1,4 +1,4 @@
-# ITI-Projects - UI/UX (Front-end) Development Track
+# ITI-Projects - Front-end Development Track
 
 1. ### **BioCode** 
     - HTML, CSS 
