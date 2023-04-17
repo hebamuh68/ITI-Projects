@@ -1,0 +1,210 @@
+@import "main.css";
+
+
+nav {
+
+    box-shadow: 6px 4px 8px rgba(0, 0, 0, 0.09);
+}
+
+figure {
+    position: absolute;
+    margin-left: 85%;
+    margin-top: .6%;
+
+    background: #f3f3f3;
+    border-radius: 50%;
+    width: 54px;
+    height: 54px;
+    overflow: hidden;
+
+    cursor: pointer;
+
+}
+
+figure img {
+    height: auto;
+    width: 100%;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+/*================================Dropdown Button================================*/
+.drop_menu_wrap {
+    position: absolute;
+    margin-left: 82%;
+    width: 10%;
+    max-height: 0px;
+    overflow: hidden;
+}
+
+.drop_menu_wrap.open_menu {
+    max-height: 100px;
+}
+
+a {
+
+    background: #ACC2BD;
+    padding: 20px;
+
+    text-decoration: none;
+
+    font-style: normal;
+    font-size: 14px;
+    line-height: 95%;
+
+    display: block;
+    align-items: center;
+    letter-spacing: 0.005em;
+
+    color: white;
+
+}
+
+a:hover {
+    background: #26745D;
+    color: white;
+
+}
+
+
+/*================================Dropdown Button================================*/
+
+#quart-1 {
+    position: absolute;
+    padding-top: 10%;
+    margin-left: 24%;
+}
+
+#quart-2 {
+    position: absolute;
+    padding-top: 10%;
+    margin-left: 55%;
+}
+
+#quart-3 {
+    position: absolute;
+    padding-top: 30%;
+    margin-left: 24%;
+}
+
+#quart-4 {
+    position: absolute;
+    padding-top: 30%;
+    margin-left: 55%;
+}
+
+#line {
+    position: absolute;
+    padding-top: 5%;
+    margin-left: 20%;
+}
+
+#habits {
+    position: absolute;
+    padding-top: 20%;
+    margin-left: 46%;
+}
+
+/*================================ POP UP habit ================================*/
+
+
+
+.pop_up {
+    position: absolute;
+    width: 800px;
+    background: white;
+    border-radius: 20px;
+    top: 25%;
+    left: 25%;
+
+
+    text-align: center;
+    padding: 100px 30px 30px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+
+    transition: transform 0.4s, top 0.4s;
+}
+
+
+
+.pop_up h2 {
+
+    position: relative;
+    left: 20%;
+    width: 400px;
+    height: 60px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    /* identical to box height */
+
+
+    color: #26745D;
+}
+
+.pop_up input {
+    position: relative;
+    margin: 5%;
+    padding: 10px;
+    width: 80%;
+    height: 10%;
+    border-radius: 10px;
+    left: 5%;
+    top: 3%;
+
+    border: 1px solid rgb(206, 206, 206);
+
+}
+
+.pop_up button {
+    position: relative;
+    margin: 5%;
+    padding: 10px;
+    width: 30%;
+    height: 10%;
+    left: 30%;
+    top: 10%;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 139.02%;
+
+    color: #ffffff;
+    background: #26745D;
+    border: #26745D;
+    border-radius: 40px;
+
+    cursor: pointer;
+}
+
+.pop_up button:hover {
+    color: #ffffff;
+    background: #1F1614;
+}
+
+.pop_up #add_habit {
+    position: absolute;
+    left: 13.5%;
+
+
+    font-size: 10px;
+    color: #26745D;
+
+    cursor: pointer;
+
+}
+
+.clo_popup{
+    visibility: hidden;
+}

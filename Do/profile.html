@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--==================CSS=====================-->
+
+    <link rel="stylesheet" href="styles/profile.css">
+
+    <!--==================JS=====================-->
+    <script src="scripts/profile.js" defer></script>
+    
+    <title>Document</title>
+</head>
+
+<body>
+    <!--============================== nav ================================-->
+
+    <nav>
+        <img id="logo" src="images/profile/logo.png">
+        <figure id="profile_pic" ><img src="images/profile/profile.png" alt="resource.Name"> </figure>
+    </nav>
+
+    <div class="drop_menu_wrap" id="submenu">  
+            <a href="profile.html">Home</a>
+            <a href="index.html">Log out</a>
+    </div>
+
+    <!--============================== months ================================-->
+    <div id="quart-1">
+        <img src="images/profile/1.png">
+        <img src="images/profile/2.png">
+        <img src="images/profile/3.png">
+    </div>
+    <div id="quart-2">
+        <img src="images/profile/4.png">
+        <img src="images/profile/5.png">
+        <img src="images/profile/6.png">
+    </div>
+    <div id="quart-3">
+        <img src="images/profile/7.png">
+        <img src="images/profile/8.png">
+        <img src="images/profile/9.png">
+    </div>
+    <div id="quart-4">
+        <img src="images/profile/10.png">
+        <img src="images/profile/11.png">
+        <img src="images/profile/12.png">
+    </div>
+
+    <img  id="line" src="images/profile/lines.png">
+    <img id="habits" src="images/profile/habits.png">
+
+    <!--============================== Habits ================================-->
+    <div class="pop_up" id="popup">
+
+        <h2>New Year Habits</h2>
+        <div id="habits_list">
+            <input id="new_habit" style="display:block" type="text" placeholder="enter what you gonna day daily ">
+        </div>
+  
+        <h5 id="add_habit"> + Add new habit</h5>
+        <button id="submit_btn" style="display:block" type="submit" onclick="window.location.href='profile.html'">Done</button>
+    </div>
+
+</body>
+
+</html>
